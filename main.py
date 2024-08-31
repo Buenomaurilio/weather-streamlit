@@ -17,7 +17,7 @@ def weather():
 # st.experimental_rerun = st_autorefresh(interval=300 * 1000)  # 300 segundos em milissegundos
 
 city = 'Dublin'
-st.write('''# New App Weather''')
+st.write('''# Weather''')
 
 col1, col2, col3 = st.columns([2, 1, 2])
 col4, col5, col6 = st.columns([2, 1, 2])
